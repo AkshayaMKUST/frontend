@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MoviePix</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Merienda&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css" rel="stylesheet">
+    
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="#">Creativo</a> <button aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-target="#navbarSupportedContent" data-toggle="collapse" type="button"><span class="navbar-toggler-icon"></span></button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <!-- <li class="nav-item active">
+              <button class="btn btn-outline-success "><a class="nav-link" href="#">Home</a></button>
+            </li>&nbsp;
+            <li class="nav-item">
+              <button class="btn btn-outline-success"><a class="nav-link" href="#">About</a></button>
+            </li>&nbsp; -->
+            <li class="nav-item">
+              <button class="btn btn-dark btn-outline-success" data-bs-toggle="modal" data-bs-target="#loginModal"><a class="nav-link">LOGIN / SIGNUP</a></button>
+            </li>
+          </ul>
+             
+        </div>
+      </div>
+    </nav>
+    <div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <!-- <div class="modal-header">
+            
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div> -->
+          <div class="modal-body">
+            <div class="login-wrap">
+              <div class="login-html">
+                <input id="tab-1" type="radio" name="tab" class="sign-in" checked><label for="tab-1" class="tab">Sign In</label>
+                <input id="tab-2" type="radio" name="tab" class="sign-up"><label for="tab-2" class="tab">Sign Up</label>
+                <div class="login-form">
+                  <div class="sign-in-htm">
+                    <div class="group">
+                      <label for="user" class="label">Username</label>
+                      <input id="user" type="text" class="input">
+                    </div>
+                    <div class="group">
+                      <label for="pass" class="label">Password</label>
+                      <input id="pass" type="password" class="input" data-type="password">
+                    </div>
+                    <div class="group">
+                      <input id="check" type="checkbox" class="check" checked>
+                      <label for="check"><span class="icon"></span> Keep me Signed in</label>
+                    </div>
+                    <div class="group">
+                      <input type="submit" class="button" value="Sign In">
+                    </div>
+                    <div class="hr"></div>
+                    <div class="foot-lnk">
+                      <a href="#forgot">Forgot Password?</a>
+                    </div>
+                  </div>
+                  <div class="sign-up-htm">
+                    <div class="group">
+                      <label for="user" class="label">Username</label>
+                      <input id="user" type="text" class="input">
+                    </div>
+                    <div class="group">
+                      <label for="pass" class="label">Password</label>
+                      <input id="pass" type="password" class="input" data-type="password">
+                    </div>
+                    <div class="group">
+                      <label for="pass" class="label">Repeat Password</label>
+                      <input id="pass" type="password" class="input" data-type="password">
+                    </div>
+                    <div class="group">
+                      <label for="pass" class="label">Email Address</label>
+                      <input id="pass" type="text" class="input">
+                    </div>
+                    <div class="group">
+                      <input type="submit" class="button" value="Sign Up">
+                    </div>
+                    <div class="hr"></div>
+                    <div class="foot-lnk">
+                      <label for="tab-1">Already Member?</label>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+      </div>
+    </div>
+    </div>
+ 
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js" integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc" crossorigin="anonymous"></script>
+
+
+
+<!-- Carousel -->
+
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="https://1.bp.blogspot.com/-Cw51_m69_4M/XoSyJSJrYAI/AAAAAAAAp2E/Ll-1g-0htdkwmTzxkkOjIJUdqInEyrJpQCLcBGAsYHQ/s2560/avatar-5k-k8-3840x2160.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="https://wallpapercave.com/wp/wp3830173.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="https://i0.wp.com/moviecliks.com/wp-content/uploads/2020/06/The-flash-movie.jpg?resize=1024%2C576&ssl=1" class="d-block w-100" alt="...">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <section class="movie-section">
+      <div class="movie-card">
+        <img class="movie-poster" src="assets/harrypotter.jpg" alt="Movie Poster">
+        <div class="movie-details">
+          <div class="movie-rating">
+            <span class="rating-star"></span>
+            <span class="rating-value">8.5</span>
+          </div>
+          <h3 class="movie-title">Harrypotter</h3>
+        </div>
+      </div>
+      <div class="movie-card">
+          <img class="movie-poster" src="assets/2018movie.jpg" alt="Movie Poster">
+          <div class="movie-details">
+            <div class="movie-rating">
+              <span class="rating-star"></span>
+              <span class="rating-value">7.3</span>
+            </div>
+            <h3 class="movie-title">2018</h3>
+          </div>
+        </div>
+        <div class="movie-card">
+          <img class="movie-poster" src="assets/guardians.png" alt="Movie Poster">
+          <div class="movie-details">
+            <div class="movie-rating">
+              <span class="rating-star"></span>
+              <span class="rating-value">8.5</span>
+            </div>
+            <h3 class="movie-title">Guardians of Galaxy Vol 3</h3>
+          </div>
+        </div>
+        <div class="movie-card">
+          <img class="movie-poster" src="assets/OIP (1).jpg" alt="Movie Poster">
+          <div class="movie-details">
+            <div class="movie-rating">
+              <span class="rating-star"></span>
+              <span class="rating-value">8.9</span>
+            </div>
+            <h3 class="movie-title">Jawan</h3>
+          </div>
+        </div>
+        <div class="movie-card">
+          <img class="movie-poster" src="assets/OIP.jpg" alt="Movie Poster">
+          <div class="movie-details">
+            <div class="movie-rating">
+              <span class="rating-star"></span>
+              <span class="rating-value">8.5</span>
+            </div>
+            <h3 class="movie-title">Avatar</h3>
+          </div>
+        </div>
+        <div class="movie-card">
+          <img class="movie-poster" src="assets/pathaan.jpg" alt="Movie Poster">
+          <div class="movie-details">
+            <div class="movie-rating">
+              <span class="rating-star"></span>
+              <span class="rating-value">8.5</span>
+            </div>
+            <h3 class="movie-title">Pathaan</h3>
+          </div>
+        </div>
+        <div class="movie-card">
+          <img class="movie-poster" src="assets/R.jpg" alt="Movie Poster">
+          <div class="movie-details">
+            <div class="movie-rating">
+              <span class="rating-star"></span>
+              <span class="rating-value">8.5</span>
+            </div>
+            <h3 class="movie-title">Tu Jhooti Main Makkar</h3>
+          </div>
+        </div>
+        <div class="movie-card">
+          <img class="movie-poster" src="assets/OIP (2).jpg" alt="Movie Poster">
+          <div class="movie-details">
+            <div class="movie-rating">
+              <span class="rating-star"></span>
+              <span class="rating-value">8.5</span>
+            </div>
+            <h3 class="movie-title">John Wick Chapter 4</h3>
+          </div>
+        </div>
+        <div class="movie-card">
+          <img class="movie-poster" src="assets/OIP (3).jpg" alt="Movie Poster">
+          <div class="movie-details">
+            <div class="movie-rating">
+              <span class="rating-star"></span>
+              <span class="rating-value">8.5</span>
+            </div>
+            <h3 class="movie-title">Evil Dead Rise</h3>
+          </div>
+        </div>
+        <div class="movie-card">
+          <img class="movie-poster" src="assets/OIP (4).jpg" alt="Movie Poster">
+          <div class="movie-details">
+            <div class="movie-rating">
+              <span class="rating-star"></span>
+              <span class="rating-value">8.5</span>
+            </div>
+            <h3 class="movie-title">Romancham</h3>
+          </div>
+        </div>
+        
+    </section>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js">
+    </script> 
+   <!-- Option 1: Bootstrap Bundle with Popper -->
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css"></script>
+   
+  
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256–2z0P7MLoyxByUtvAk/xjkmindefS4auh4Pfzbm7y6g0="crossorigin=”anonymous”>
+  </script>
+  
+</body>
+</html>
